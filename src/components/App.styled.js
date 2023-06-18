@@ -19,6 +19,11 @@ export const SectionContainer = styled.div`
     padding: 10px;
   }
 `;
+export const Loader = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: center;
+`;
 export const Container = styled.div`
   padding: 15px;
   max-width: 100%;
