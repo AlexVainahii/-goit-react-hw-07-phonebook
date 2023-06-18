@@ -9,6 +9,15 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+#root {
+  background-image: url('./images/Background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  overflow: auto;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
