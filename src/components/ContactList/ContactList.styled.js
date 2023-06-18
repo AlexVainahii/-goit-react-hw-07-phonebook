@@ -66,7 +66,7 @@ export const Button = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #333;
+  color: #fff;
 
   :hover {
  scale:1.1;
