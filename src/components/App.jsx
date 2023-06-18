@@ -8,7 +8,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { Container, SectionContainer } from './App.styled';
 import { getContacts, getError, getIsLoading } from 'redux/selectors';
 import { fetchContacts } from 'redux/operations';
-import { useEffect } from 'react';
+import { useEffect, CSSProperties } from 'react';
 import { CircleLoader } from 'react-spinners';
 const override: CSSProperties = {
   display: 'block',
