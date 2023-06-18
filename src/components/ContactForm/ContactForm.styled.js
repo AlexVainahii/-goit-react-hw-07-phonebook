@@ -39,7 +39,7 @@ export const Button = styled.button`
   border-radius: 5px;
   font-size: 16px;
   cursor: pointer;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s ease;
 
   &:hover {
     background: linear-gradient(to bottom, #e1d71b, #c7bc2a);

@@ -54,6 +54,10 @@ export const Li = styled.li`
   border-radius: 5px;
   gap: 10px;
   background-color: #fff;
+  transition: background-color 0.3s ease;
+  :hover {
+    background-color: yellow;
+  }
 `;
 
 export const Button = styled.button`
@@ -67,6 +71,7 @@ export const Button = styled.button`
   align-items: center;
   justify-content: center;
   color: #fff;
+  transition:  scale 0.3s ease;
 
   :hover {
  scale:1.1;
